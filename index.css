@@ -1,0 +1,235 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -4px;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        height: auto;
+        width: auto;
+    }
+  }
+.burger-but{
+    display: flex;
+    flex-flow: column;
+    margin-top: -10px;
+    margin-left: 6px;
+}
+.burger-but > .burger1{  
+    width: 20px;
+    height: 2px;
+    background-color: gray;
+    margin-top: 6px;
+}
+.burger-but > .burger2{  
+    width: 20px;
+    height: 2px;
+    background-color: gray;
+    margin-top: 6px;
+}
+.burger-but > .burger3{  
+    width: 20px;
+    height: 2px;
+    background-color: gray;
+    margin-top: 6px;
+}
+.nav-bar > .find-us{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: gray;
+    text-align: end;
+}
+.nav-bar > .find-us i{
+    padding-right: 5px;
+}
+.nav-bar > .logo{
+    color: #000;
+}
+.heading{
+    position: relative;
+    text-align: start;
+}
+.main-img{
+    margin-left: -10px;
+    max-width : 101.15%
+}
+.chrn-pur{
+    top: 40px;
+    left: 140px;
+    color: white;
+    position: absolute;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 54px;
+    margin-right: 71%;
+
+}
+.drv-exp{
+    top: 240px;
+    left: 140px;
+    color: white;
+    position: absolute;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-right: 65%;
+}
+.dscv-all{
+    position: absolute;
+    top: 320px;
+    left: 140px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: solid 1px white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.dscv-all:hover{
+    color: black;
+    background: white;
+}
+.vid-pres{
+    position: absolute;
+    top: 390px;
+    left: 140px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: solid 1px white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16.5px;
+    padding-right: 16.5px;
+}
+.vid-pres:hover{
+    color: black;
+    background: white;
+}
+.models{
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 53px;
+}
+.model{
+    display: grid;
+    grid-gap: 6px;
+    margin-left: 100px;
+}
+.column-model{
+    height: 424.8px;
+    width: 424.8px;
+    padding-left: 5px;
+    position: relative;
+}
+.chrn-mdl{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: -880px;
+}
+.chiron-model-s{
+    height: 862px;
+    width: 862px;
+    position: relative;
+}
+.universe{
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-top: 150px;
+    margin-left: 95px;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+.uni{
+    padding-top: 10px;
+    display: flex;
+    flex-flow: row;
+    column-gap: 10px;
+    justify-content: center;
+    margin: 1px;
+}
+.chmpgn{
+    height: 430px;
+    width: 430px;
+}
+.find{
+    height: 430px;
+    width: 430px;
+}
+.mech{
+    height: 430px;
+    width: 430px;
+}
+.credits{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+    margin-top: 150px;
+}
+.credits2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background: black;
+    margin-top: 70px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.soc-med{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+.soc-med i{
+    color: white;
+}
+.facebook:hover{
+    opacity: 50%;
+}
+.twitter:hover{
+    opacity: 50%;
+}
+.instagram:hover{
+    opacity: 50%;
+}
+.pinterest:hover{
+    opacity: 50%;
+}
+.yt:hover{
+    opacity: 50%;
+}
+.link-in:hover{
+    opacity: 50%;
+}
+.bugatti2020{
+    color: rgb(175, 175, 175);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+.faq{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11.5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px 60px 0px;
+    margin-left: 21%;
+    margin-right: 21%;
+}
+.faq a{
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+}
